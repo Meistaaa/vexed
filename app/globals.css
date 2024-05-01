@@ -99,3 +99,12 @@ body {
   border-right: 700px solid #ffffff59; /* Half of the width */
   border-bottom: 600px solid #f5f5ff; /* Height */
 }
+.expert-section-gradient {
+  background: linear-gradient(
+    143.94deg,
+    rgba(228, 170, 211, 0.4) 6.58%,
+    rgba(218, 218, 188, 0.288) 30.38%,
+    rgba(146, 222, 246, 0.272) 54.17%,
+    rgba(89, 132, 194, 0.4) 77.96%
+  );
+}
