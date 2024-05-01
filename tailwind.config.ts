@@ -15,6 +15,7 @@ const config: Config = {
         lightBlue: "#1780B2",
         bgBlue: "#1E1541",
         red: "#FF0042",
+        lightPurple: "#332b5480",
       },
     },
     plugins: [],
