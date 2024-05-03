@@ -8,17 +8,22 @@ const social: SocialLink[] = [
   {
     name: "Facebook",
     href: "#",
-    icon: "whatsapp.svg",
+    icon: "facebook.svg",
   },
   {
     name: "Instagram",
     href: "#",
-    icon: "whatsapp.svg",
+    icon: "instagram.svg",
   },
   {
     name: "Whatsapp",
     href: "#",
     icon: "whatsapp.svg",
+  },
+  {
+    name: "Gmail",
+    href: "#",
+    icon: "gmail.svg",
   },
 ];
 

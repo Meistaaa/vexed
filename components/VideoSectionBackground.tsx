@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const VideoSectionBackground = () => {
   return (
-    <div className="flex flex-col items-start h-full">
+    <div className="flex flex-col items-start ">
       <div className="self-center pt-24">
         <h2 className="font-semibold text-4xl text-center text-white mb-4">
           Generate ad creatives that help you sell. Fast.

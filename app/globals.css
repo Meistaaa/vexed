@@ -108,3 +108,31 @@ body {
     rgba(89, 132, 194, 0.4) 77.96%
   );
 }
+.expert-heading-gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.35) 0%,
+    rgba(255, 255, 255, 0.035) 100%
+  );
+}
+
+.circle1 {
+  background: radial-gradient(
+      88.14% 88.14% at 0% 12.65%,
+      #cc00ff 0%,
+      #e56700 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+.circle2 {
+  background: linear-gradient(180deg, #480093 1.42%, #ad19c1 136.25%);
+}
+.circle3 {
+  background: radial-gradient(
+      88.14% 88.14% at 0% 12.65%,
+      #1780b2 0%,
+      #262666 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}

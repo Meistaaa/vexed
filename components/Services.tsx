@@ -3,7 +3,7 @@ import Card from "./Card";
 
 const Services = () => {
   return (
-    <div className="max-w-screen-2xl  flex-col gap-32">
+    <div className="max-w-screen-2xl my-16 flex-col gap-32">
       <div className="mb-32 flex items-center justify-center flex-col">
         <h1 className="secondary-heading-gradient text-4xl font-bold text-center ">
           Vexed Solution Services
