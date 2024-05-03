@@ -16,25 +16,25 @@ export default function Home() {
       <div className="background-gradient h-fit ">
         <HeroSection></HeroSection>
       </div>
-      {/* <div className="bg-bgBlue flex flex-col items-center justify-end  overflow-hidden">
+      <div className="bg-bgBlue flex flex-col items-center justify-end  overflow-hidden">
         <VideoSectionBackground></VideoSectionBackground>
       </div>
       <div className=" new-gradient flex items-center justify-center">
         <Services></Services>
       </div>
-      <div className="expert-section-gradient flex flex-col items-center justify-center ">
+      {/* <div className="expert-section-gradient flex flex-col items-center justify-center ">
         <ExpertSection></ExpertSection>
-      </div>
-      <div className=" new-gradient flex items-center justify-center">
+      </div> */}
+      {/* <div className=" new-gradient flex items-center justify-center">
         <FeaturesSection></FeaturesSection>
-      </div>
-      <div className="bg-bgBlue flex flex-col items-center  h-[1440px] overflow-hidden">
+      </div> */}
+      {/* <div className="bg-bgBlue flex flex-col items-center  h-[1440px] overflow-hidden">
         <Background></Background>
-      </div>
-      <div className="expert-section-gradient flex flex-col items-center justify-center">
+      </div> */}
+      {/* <div className="expert-section-gradient flex flex-col items-center justify-center">
         <BlogSection></BlogSection>
-      </div>
-      <div className="w-[1440px]"></div> */}
+      </div> */}
+      <div className="w-[1440px]"></div>
     </div>
   );
 }
