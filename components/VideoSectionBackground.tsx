@@ -21,7 +21,7 @@ const VideoSectionBackground = () => {
           <div className="z-0 absolute right-[280px] top-0 rotate-[46.5deg] md:right-[400px] md:top-[120px] lg:right-[467px] lg:top-[120px] md:rotate-[46.5deg] lg:rotate-[49.5deg]  w-0 h-0 border border-b-[#332b5480] border-x-[transparent] border-t-transparent border-x-[25px] border-b-[600px] "></div>
           <div className="z-0 absolute left-[280px] top-0 -rotate-[46.5deg] md:left-[400px] md:top-[120px] lg:left-[467px] lg:top-[120px] md:-rotate-[46.5deg] lg:-rotate-[49.5deg]  w-0 h-0 border border-b-[#332b5480] border-x-[transparent] border-t-transparent border-x-[25px] border-b-[600px] "></div>
           <div className="flex items-center justify-center z-30 ">
-            <div className="p-4  absolute -top-[50px] flex items-center justify-center w-[350px] h-[200px] md:w-[780px] md:h-[400px] lg:w-[1134px] lg:h-[567px] video-background-gradient rounded-[20px]">
+            <div className="p-4  absolute -top-[50px] flex items-center justify-center w-[350px] h-[200px] md:w-[780px] md:h-[400px] lg:w-[1024px] lg:h-[500px] xl:w-[1134px] xl:h-[567px] video-background-gradient rounded-[20px]">
               <div className="border-8 flex items-center justify-center border-white  bg-[#D9D9D9] h-[100%] rounded-[20px] w-[100%]">
                 <button
                   type="button"
