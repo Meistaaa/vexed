@@ -22,12 +22,12 @@ export default function Home() {
       <div className=" new-gradient flex items-center justify-center">
         <Services></Services>
       </div>
-      {/* <div className="expert-section-gradient flex flex-col items-center justify-center ">
+      <div className="expert-section-gradient flex flex-col items-center justify-center overflow-hidden">
         <ExpertSection></ExpertSection>
-      </div> */}
-      {/* <div className=" new-gradient flex items-center justify-center">
+      </div>
+      <div className=" new-gradient flex items-center justify-center">
         <FeaturesSection></FeaturesSection>
-      </div> */}
+      </div>
       {/* <div className="bg-bgBlue flex flex-col items-center  h-[1440px] overflow-hidden">
         <Background></Background>
       </div> */}
