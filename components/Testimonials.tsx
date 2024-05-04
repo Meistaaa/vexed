@@ -23,31 +23,31 @@ const Testimonials = ({
   };
 
   return (
-    <div className="w-full">
-      <div className="flex items-center justify-between transition-all ease-in-out duration-500">
-        <div className="bg-lightPurple h-24 w-24 rounded-3xl flex items-center justify-center transform hover:scale-110 transition-transform">
+    <div className="w-[320px] sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-full">
+      <div className="flex items-center justify-between">
+        <div className="bg-lightPurple h-16 w-16 md:h-24 md:w-24 lg:h-24 lg:w-24 rounded-3xl flex items-center justify-center transform hover:scale-110 transition-transform">
           <button onClick={prev}>
             <img src="arrow.svg" alt="" className="rotate-180" />
           </button>
         </div>
         <TestimonialsImage image={testimonials[index].img} />
-        <div className="bg-lightPurple h-24 w-24 rounded-3xl flex items-center justify-center transform hover:scale-110 transition-transform">
+        <div className="bg-lightPurple  h-16 w-16 md:h-24 md:w-24 lg:h-24 lg:w-24 rounded-3xl flex items-center justify-center transform hover:scale-110 transition-transform">
           <button onClick={next}>
             <img src="arrow.svg" alt="" />
           </button>
         </div>
       </div>
-      <div className="mt-16 flex flex-col items-center justify-center transition-all duration-500">
-        <h1 className="text-center text-white text-4xl font-semibold mb-1">
+      <div className="mt-4 md:mt-12 lg:mt-16 flex flex-col items-center justify-center transition-all duration-500">
+        <h1 className="text-center text-white text-xl md:text-2xl  lg:text-4xl font-semibold mb-1">
           {testimonials[index].name}
         </h1>
-        <p className="text-lightGray mt-4 text-lg text-center mb-8 w-[70ch]">
+        <p className="text-lightGray   text-sm md:text-lg text-center mb-4 md:mb-8 w-[70ch]">
           {testimonials[index].title}
         </p>
-        <h1 className="text-center text-red text-6xl font-bold mb-8">
+        <h1 className="text-center text-red text-lg  md:text-4xl lg:text-6xl font-bold mb-4 md:mb-8">
           {testimonials[index].title}
         </h1>
-        <p className="text-lightGray mt-4 text-lg text-center mb-24 w-[70ch]">
+        <p className="text-lightGray  text-[10px] md:text-lg text-center mb-4 md:mb-20 lg:mb-24 w-[25ch] md:w-[70ch]">
           {testimonials[index].desc}
         </p>
         <div className="flex items-center justify-center transition-all duration-500">
@@ -56,7 +56,7 @@ const Testimonials = ({
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
-                className={`w-12 h-12 ${
+                className={`w-8 h-8 md:w-12 md:h-12 ${
                   testimonials[index].reviews > starIndex
                     ? "fill-[#FFD700]"
                     : "fill-[#D9D9D9]"

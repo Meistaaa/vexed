@@ -28,9 +28,9 @@ export default function Home() {
       <div className=" new-gradient flex items-center justify-center">
         <FeaturesSection></FeaturesSection>
       </div>
-      {/* <div className="bg-bgBlue flex flex-col items-center  h-[1440px] overflow-hidden">
+      <div className="bg-bgBlue flex flex-col items-center pb-12 overflow-hidden">
         <Background></Background>
-      </div> */}
+      </div>
       {/* <div className="expert-section-gradient flex flex-col items-center justify-center">
         <BlogSection></BlogSection>
       </div> */}
