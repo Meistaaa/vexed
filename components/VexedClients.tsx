@@ -23,40 +23,40 @@ const VexedClients = () => {
       </div>
       <div className="z-10 hero-gradient w-fit mt-8 py-8 px-4  border-[1px] border-white rounded-3xl max-w-xs sm:max-w-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl">
         <div className="  ">
-          <Carousel className="flex items-center justify-start gap-2">
+          <Carousel className="flex items-center justify-center  gap-2">
             <CarouselPrevious></CarouselPrevious>
-            <CarouselContent className=" flex ">
-              <CarouselItem className=" sm:basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5">
+            <CarouselContent className="  ">
+              <CarouselItem className=" basis-1/1 md:basis-1/3 lg:basis-1/4 xl:basis-1/5">
                 <div className="bg-white snap-center h-20 w-[200px] rounded-3xl flex flex-col items-center justify-center gap-4 drop-shadow-sm ">
                   <img src="vexed.svg" alt="" />
                 </div>
               </CarouselItem>
-              <CarouselItem className=" sm:basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5">
+              <CarouselItem className=" basis-1/1 md:basis-1/3 lg:basis-1/4 xl:basis-1/5">
                 <div className="bg-white snap-center h-20 w-[200px] rounded-3xl flex flex-col items-center justify-center gap-4 drop-shadow-sm ">
                   <img src="vexed.svg" alt="" />
                 </div>
               </CarouselItem>
-              <CarouselItem className=" sm:basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5">
+              <CarouselItem className=" basis-1/1 md:basis-1/3 lg:basis-1/4 xl:basis-1/5">
                 <div className="bg-white snap-center h-20 w-[200px] rounded-3xl flex flex-col items-center justify-center gap-4 drop-shadow-sm ">
                   <img src="vexed.svg" alt="" />
                 </div>
               </CarouselItem>
-              <CarouselItem className=" sm:basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5">
+              <CarouselItem className=" basis-1/1 md:basis-1/3 lg:basis-1/4 xl:basis-1/5">
                 <div className="bg-white snap-center h-20 w-[200px] rounded-3xl flex flex-col items-center justify-center gap-4 drop-shadow-sm ">
                   <img src="vexed.svg" alt="" />
                 </div>
               </CarouselItem>
-              <CarouselItem className=" sm:basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5">
+              <CarouselItem className=" basis-1/1 md:basis-1/3 lg:basis-1/4 xl:basis-1/5">
                 <div className="bg-white snap-center h-20 w-[200px] rounded-3xl flex flex-col items-center justify-center gap-4 drop-shadow-sm ">
                   <img src="vexed.svg" alt="" />
                 </div>
               </CarouselItem>
-              <CarouselItem className=" sm:basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5">
+              <CarouselItem className=" basis-1/1 md:basis-1/3 lg:basis-1/4 xl:basis-1/5">
                 <div className="bg-white snap-center h-20 w-[200px] rounded-3xl flex flex-col items-center justify-center gap-4 drop-shadow-sm ">
                   <img src="vexed.svg" alt="" />
                 </div>
               </CarouselItem>
-              <CarouselItem className=" sm:basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5">
+              <CarouselItem className=" basis-1/1 md:basis-1/3 lg:basis-1/4 xl:basis-1/5">
                 <div className="bg-white snap-center h-20 w-[200px] rounded-3xl flex flex-col items-center justify-center gap-4 drop-shadow-sm ">
                   <img src="vexed.svg" alt="" />
                 </div>
