@@ -9,10 +9,10 @@ const HeroSection = () => {
         <TopNav></TopNav>
       </div>
       <div className="border-2 mb-4 border-white flex flex-col gap-4 hero-gradient  px-5 py-3 rounded-3xl h-fit">
-        <div className=" border-[1px] drop-shadow-md border-white  sub-gradient h-max p-4 rounded-3xl">
+        <div className=" border-[1px] z-[9999] drop-shadow-md border-white  sub-gradient h-max p-4 rounded-3xl">
           <Navbar></Navbar>
         </div>
-        <div className="border-[1px]  border-white drop-shadow-sm sub-gradient h-max p-4 rounded-3xl">
+        <div className="border-[1px] z-1 border-white drop-shadow-sm sub-gradient h-max p-4 rounded-3xl">
           <HeroContent></HeroContent>
         </div>
       </div>

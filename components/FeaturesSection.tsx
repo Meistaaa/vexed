@@ -3,7 +3,7 @@ import React from "react";
 const FeaturesSection = () => {
   return (
     <div className="my-16 max-w-screen-2xl">
-      <h1 className="secondary-heading-gradient text-xl md:text-2xl text-4xl font-bold text-center">
+      <h1 className=" secondary-heading-gradient text-xl md:text-2xl lg:text-4xl font-bold text-center ">
         Featured Work
       </h1>
       <div className="mt-12 flex items-center justify-center flex-wrap gap-8">

@@ -38,7 +38,7 @@ const Navbar = () => {
               <img src="doubleArrows.svg" alt="" />
             </div>
           </DropdownMenuTrigger>
-          <DropdownMenuContent className="bg-white bg-opacity-[70%] rounded-3xl p-4   mt-2">
+          <DropdownMenuContent className="bg-white  rounded-3xl p-4   mt-2">
             <DropdownMenuItem className="text-lg cursor-pointer text-center transition duration-150 ease-in-out hover:bg-zinc-100 p-2">
               Profile
             </DropdownMenuItem>
@@ -59,7 +59,7 @@ const Navbar = () => {
               <img src="doubleArrows.svg" alt="" />
             </div>
           </DropdownMenuTrigger>
-          <DropdownMenuContent className="bg-white bg-opacity-[70%] rounded-3xl p-4   mt-2">
+          <DropdownMenuContent className="bg-white  rounded-3xl p-4   mt-2">
             <DropdownMenuItem className="text-lg cursor-pointer text-center transition duration-150 ease-in-out hover:bg-zinc-100 p-2">
               Profile
             </DropdownMenuItem>
