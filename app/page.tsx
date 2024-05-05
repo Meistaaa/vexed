@@ -24,9 +24,9 @@ export default function Home() {
       <div className="expert-section-gradient flex flex-col items-center justify-center overflow-hidden">
         <ExpertSection></ExpertSection>
       </div>
-      <div className="new-gradient flex flex-col items-center justify-center overflow-hidden">
+      {/* <div className="new-gradient flex flex-col items-center justify-center overflow-hidden">
         <WhyVexed></WhyVexed>
-      </div>
+      </div> */}
       <div className=" new-gradient flex items-center justify-center">
         <FeaturesSection></FeaturesSection>
       </div>
