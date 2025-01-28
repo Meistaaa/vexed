@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import TestimonialsImage from "./TestimonialsImage";
 import Testimonials from "./Testimonials";
 import testimonials from "@/constants/testimonials";
 const Background = () => {

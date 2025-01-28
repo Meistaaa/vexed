@@ -1,6 +1,6 @@
 import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
-import { XMarkIcon } from "@heroicons/react/24/outline";
+import { X } from "lucide-react";
 
 export default function Example() {
   const [open, setOpen] = useState(true);
@@ -46,7 +46,7 @@ export default function Example() {
                             onClick={() => setOpen(false)}
                           >
                             <span className="sr-only">Close panel</span>
-                            <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                            <X className="h-6 w-6" aria-hidden="true" />
                           </button>
                         </div>
                       </div>

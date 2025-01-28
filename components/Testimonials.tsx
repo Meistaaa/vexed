@@ -1,7 +1,7 @@
-"use clients";
+"use client";
 import React, { useState } from "react";
 import TestimonialsImage from "./TestimonialsImage";
-import testimonials, { TestimonialsType } from "@/constants/testimonials";
+import { TestimonialsType } from "@/constants/testimonials";
 
 const Testimonials = ({
   testimonials,
