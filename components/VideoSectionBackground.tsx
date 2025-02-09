@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import { Play } from "lucide-react";
 const VideoSectionBackground = () => {
   return (
     <div className="flex flex-col  ">
@@ -27,13 +27,12 @@ const VideoSectionBackground = () => {
                   type="button"
                   className="w-24 h-24 relative bg-white flex items-center justify-center rounded-full z-40 "
                 >
-                  <Image
-                    src={"/polygon3.png"}
-                    alt="polygon3"
+                  <Play
+                    fill="black"
                     height={48}
                     width={48}
-                    className="ml-3"
-                  ></Image>
+                    className="ml-2"
+                  ></Play>
                 </button>
               </div>
             </div>
